@@ -1,0 +1,19 @@
+# All sensitive data excluded
+.env*
+*.env
+node_modules/
+*.log
+.DS_Store
+dist/
+build/
+*.sqlite
+*.db
+credentials/
+keys/
+secrets/
+attached_assets/
+*.csv
+*.pdf
+*orders*
+*credentials*
+*keys*
