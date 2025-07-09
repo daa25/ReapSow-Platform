@@ -1,25 +1,18 @@
 {
   "name": "reapsow-platform",
-  "version": "1.0.0",
-  "description": "Patent-protected zero-capital e-commerce automation platform",
+  "version": "1.0.1",
+  "description": "ReapSow - Optimized eCommerce Automation Platform",
   "main": "index.js",
   "scripts": {
-    "dev": "echo 'ReapSow Development Environment'",
-    "build": "echo 'ReapSow Production Build'",
-    "start": "echo 'ReapSow Production Server'"
+    "dev": "node index.js",
+    "build": "echo 'Build complete.'",
+    "start": "node index.js"
   },
-  "keywords": [
-    "ecommerce",
-    "automation",
-    "zero-capital",
-    "patent-protected",
-    "direct-payment-routing"
-  ],
-  "author": "VibeLink Property Enhancement Services LLC",
-  "license": "MIT",
   "dependencies": {
-    "react": "^18.0.0",
-    "express": "^4.18.0",
-    "typescript": "^5.0.0"
-  }
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "license": "MIT"
 }
